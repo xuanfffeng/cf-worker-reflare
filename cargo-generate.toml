@@ -1,0 +1,6 @@
+[template]
+exclude = [
+  'deploy.yml',
+  'node.yml',
+  '.github'
+]

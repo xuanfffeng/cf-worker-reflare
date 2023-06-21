@@ -1,0 +1,10 @@
+name = 'next-web'
+main = './dist/worker.js'
+workers_dev = true
+compatibility_date = "2023-06-21"
+
+[build]
+command = "npm install && npm run build"
+
+[build.upload]
+format = "service-worker"
